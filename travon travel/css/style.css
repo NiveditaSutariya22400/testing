@@ -1283,13 +1283,23 @@ header .mainbar .nav2 .icon {
   background-color: var(--theme-color);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .footer {
     margin-top: 130px;
   }
   .footer .footer-main {
     padding-top: 300px;
   }
+}
+@media (max-width: 380px) {
+  .footer {
+    margin-top: 230px;
+  }
+  .footer .footer-main {
+    padding-top: 450px;
+  }
+}
+@media (max-width: 768px) {
   .blog-p {
     padding-bottom: 200px;
   }

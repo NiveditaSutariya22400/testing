@@ -234,6 +234,7 @@ header{
             }
         }
     }
+   
 }
 // aboutus section 
 .aboutus{
@@ -605,6 +606,7 @@ header{
             top: 0%;
             transform:translatey(-50%);
             width: 100%;
+            // display: none;
             .footer-up-bg{
                 .f-input{
                     padding: 10px 0px;
@@ -664,11 +666,9 @@ header{
     }
    
 }
-// @media (min-width:767px)  {
-//     .footer-main{
-//         padding-top: 500px;
-//     }
-// }
+@media (min-width:767px)  {
+  
+}
 
 
 // destinationpage
@@ -1537,14 +1537,25 @@ header{
         
     }
 }
-
-@media (max-width:768px) {
+@media (max-width:576px) {
     .footer{
         margin-top: 130px;
         .footer-main{
             padding-top: 300px;
         }
+    } 
+}
+@media (max-width:380px) {
+    .footer{
+        margin-top: 230px;
+        .footer-main{
+            padding-top: 450px;
+        }
     }
+}
+
+@media (max-width:768px) {
+   
     .blog-p{
         padding-bottom: 200px;
     }
