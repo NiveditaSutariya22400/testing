@@ -493,6 +493,7 @@ header{
 }
 // footersection
 .footer{
+    overflow: hidden;
     background-color: #161921;
     margin-top: 10%;
     .footer-main{
@@ -1555,7 +1556,12 @@ header{
 }
 
 @media (max-width:768px) {
-   
+    .footer{
+        margin-top: 130px;
+        .footer-main{
+            padding-top: 350px;
+        }
+    }
     .blog-p{
         padding-bottom: 200px;
     }

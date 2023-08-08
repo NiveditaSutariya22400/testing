@@ -420,6 +420,7 @@ header .mainbar .nav2 .icon {
 }
 
 .footer {
+  overflow: hidden;
   background-color: #161921;
   margin-top: 10%;
 }
@@ -1300,6 +1301,12 @@ header .mainbar .nav2 .icon {
   }
 }
 @media (max-width: 768px) {
+  .footer {
+    margin-top: 130px;
+  }
+  .footer .footer-main {
+    padding-top: 350px;
+  }
   .blog-p {
     padding-bottom: 200px;
   }
